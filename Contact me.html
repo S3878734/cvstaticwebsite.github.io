@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatiple" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Page</title>
+    </head>
+    <body>
+        <div class="container">
+            <div style="text-align: center">
+                <h1>CONTACT ME</h1>
+                <p1>If there are any bugs or inqueries you have for us, please leave us a message:</p1>
+            </div>
+        <div class="column">
+            <div class="input-group">
+                <img scr="img/meditate.jpg" style="width:50%">
+        </div>
+        <div class="input-group">
+            <form action="contact.html" method="post" enctype="multipart/form-data">
+                <select name="contact_purpose">
+                    <option>Business</option>
+                    <option>Personal</option>
+                </select>
+
+                <div class="input-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                </div>
+
+                <div class="input-group">
+                <label for="email">Enter your Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email...">
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Enter your Phone number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Numer...">
+                </div>
+
+                <div class="input-group">
+                    <label> Perfered Contact method</label>
+                    <input type="radio" id="Email" name="Perfered" value="E">
+                    <label for="Email">Email</label>
+                    <input type="radio" id="phone" name="Perfered" value="P">
+                    <label for="Phone">Phone</label>
+                </div>
+
+                <input type="submit" name="action" value="send">
+                <input type="reset" name="reset" value="clear">
+            </form> 
+        </div>
+        </div>
+    </body>
+</html>
